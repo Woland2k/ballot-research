@@ -22,7 +22,7 @@ Then just describe your ballot in any session (the skill is model-invoked and lo
 
 The `/plugin` commands above are **Claude Code (CLI) only**. To use this in the Claude web or desktop app, upload the prebuilt skill zip:
 
-1. Download **[`dist/ballot-research-skill.zip`](dist/ballot-research-skill.zip)** (open the file on GitHub, then click the **Download** / raw button).
+1. Download **[`ballot-research-skill.zip`](https://github.com/Woland2k/ballot-research/releases/latest/download/ballot-research-skill.zip)** (latest release asset — a stable link that always serves the newest version).
 2. In Claude, go to **Settings → Capabilities → Skills** and click **Upload skill**.
 3. Select the zip and toggle the skill on.
 
