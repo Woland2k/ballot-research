@@ -4,6 +4,11 @@ A reusable, **politically neutral** [Claude Skill](https://support.claude.com/en
 
 ## Install
 
+**Which Claude are you using?**
+
+- **Claude web app or desktop app** → use **[Option B](#option-b--claudeai--claude-desktop-upload-the-skill)** (upload the skill zip). The `/plugin` commands below do **not** work in the consumer app.
+- **Claude Code (the CLI)** → use **Option A** (plugin marketplace) below.
+
 ### Option A — Claude Code (as a plugin marketplace)
 
 ```shell
