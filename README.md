@@ -13,12 +13,18 @@ A reusable, **politically neutral** [Claude Skill](https://support.claude.com/en
 
 Then just describe your ballot in any session (the skill is model-invoked and loads when relevant), or run it directly with `/ballot-research:ballot-research`.
 
-### Option B — claude.ai (upload the skill)
+### Option B — claude.ai / Claude desktop (upload the skill)
 
-1. Download this repo (green **Code → Download ZIP**, or a Release asset).
-2. Zip the inner skill folder `plugins/ballot-research/skills/ballot-research/` (the folder containing `SKILL.md`).
-3. In Claude, go to **Settings → Capabilities → Skills**, upload the zip, and toggle it on.
+The `/plugin` commands above are **Claude Code (CLI) only**. To use this in the Claude web or desktop app, upload the prebuilt skill zip:
 
+1. Download **[`dist/ballot-research-skill.zip`](dist/ballot-research-skill.zip)** (open the file on GitHub, then click the **Download** / raw button).
+2. In Claude, go to **Settings → Capabilities → Skills** and click **Upload skill**.
+3. Select the zip and toggle the skill on.
+
+That's it — no unzipping or re-zipping needed. The skill is model-invoked, so just describe your ballot in any chat and it loads when relevant.
+
+> The zip already contains the skill folder at the correct level (`ballot-research/SKILL.md` inside). To rebuild it yourself, zip the folder `plugins/ballot-research/skills/ballot-research/`.
+>
 > Settings paths move as the product updates; if it looks different, search "use skills" at support.claude.com.
 
 ## What's inside
