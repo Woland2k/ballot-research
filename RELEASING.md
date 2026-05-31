@@ -48,7 +48,7 @@ With the `gh` CLI:
 gh release create vX.Y.Z /tmp/ballot-research-skill.zip \
   --repo Woland2k/ballot-research \
   --title "Ballot Research vX.Y.Z" \
-  --notes "Prebuilt skill zip for the Claude web/desktop app. Upload it in Settings -> Capabilities -> Skills. Claude Code users: /plugin marketplace add Woland2k/ballot-research"
+  --notes "Prebuilt skill zip for the Claude web/desktop app. Enable code execution (Settings -> Capabilities), then Customize -> Skills -> + -> Create skill -> Upload a skill. Claude Code users: /plugin marketplace add Woland2k/ballot-research"
 ```
 
 Or via the web UI: **Releases → Draft a new release → tag `vX.Y.Z` → attach `ballot-research-skill.zip` → Publish**.

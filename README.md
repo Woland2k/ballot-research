@@ -35,14 +35,15 @@ Then just describe your ballot in any session (the skill is model-invoked and lo
 The `/plugin` commands above are **Claude Code (CLI) only**. To use this in the Claude web or desktop app, upload the prebuilt skill zip:
 
 1. Download **[`ballot-research-skill.zip`](https://github.com/Woland2k/ballot-research/releases/latest/download/ballot-research-skill.zip)** (latest release asset — a stable link that always serves the newest version).
-2. In Claude, go to **Settings → Capabilities → Skills** and click **Upload skill**.
-3. Select the zip and toggle the skill on.
+2. **Enable code execution first** — Settings → **Capabilities** → turn on **Code execution / file creation**. The Skills upload option won't appear until this is on. *(On Team/Enterprise, an org owner must enable both "Code execution and file creation" and "Skills" in Organization settings before members can upload.)*
+3. Go to **Customize → Skills**, click **+** → **+ Create skill** → **Upload a skill**.
+4. Select the zip. It's then available — the skill is model-invoked, so just describe your ballot in any chat and it loads when relevant.
 
-That's it — no unzipping or re-zipping needed. The skill is model-invoked, so just describe your ballot in any chat and it loads when relevant.
+Works on all plans (including Free) once code execution is enabled. Uploaded skills are private to your account.
 
 > The zip already contains the skill folder at the correct level (`ballot-research/SKILL.md` inside). To rebuild it yourself, zip the folder `plugins/ballot-research/skills/ballot-research/`.
 >
-> Settings paths move as the product updates; if it looks different, search "use skills" at support.claude.com.
+> Menu paths move as the product updates; if it looks different, see [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
 
 ## What's inside
 
