@@ -19,6 +19,12 @@ If you have ChatGPT Plus/Team/Enterprise and want a shareable *Ballot Research* 
 - **Instructions** = the contents of [`ballot-research-instructions.md`](ballot-research-instructions.md) (trim the inlined reference sections if you hit the instruction-length limit).
 - **Knowledge** = upload [`sources.md`](../plugins/ballot-research/skills/ballot-research/references/sources.md) and [`comparison-templates.md`](../plugins/ballot-research/skills/ballot-research/references/comparison-templates.md) instead of inlining them, and in the instructions say "consult your knowledge files for the source hierarchy and table templates."
 - **Capabilities** = enable **Web Search**.
+- **Conversation starters** (the prompt buttons on the GPT's landing screen) — paste these four:
+  - `Here are photos of my sample ballot — build me a voter guide.`
+  - `What's on my ballot? I'm in [ZIP/county] for the [date] election.`
+  - `Compare the candidates for [office] in my area.`
+  - `Map my ballot to my priorities: [e.g. lower taxes, environment, public safety].`
+- **Name / description** suggestions: *Ballot Research* — "Neutral, research-fresh voter guides. Share your ballot or location and I'll compare every candidate and measure from nonpartisan sources, in ballot order."
 
 ## Note
 
