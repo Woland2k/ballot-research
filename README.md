@@ -2,6 +2,17 @@
 
 A reusable, **politically neutral** [Claude Skill](https://support.claude.com/en/articles/12512180-use-skills-in-claude) — packaged here as a [Claude Code plugin](https://code.claude.com/docs/en/plugin-marketplaces) — that helps a voter understand their ballot end to end. It identifies every contest, researches each candidate and measure from **authoritative nonpartisan sources**, lays out the meaningful differences in consistent side-by-side tables, optionally maps each race to the **voter's own stated priorities**, and delivers it in ballot order as a guide you can keep or share.
 
+## What you can ask
+
+Once it's set up (see **Install** below), just describe your ballot in plain language:
+
+- *"Here are photos of my sample ballot — build me a voter guide."*
+- *"What's on my ballot? I'm in [ZIP / county] for the [date] election."*
+- *"Compare the candidates for [office] in my area."*
+- *"Map my ballot to my priorities: [e.g. lower taxes, environment, public safety]."*
+
+It works the same on every supported platform; only the one-time setup differs.
+
 ## Install
 
 **Which Claude are you using?**
