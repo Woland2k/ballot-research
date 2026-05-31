@@ -1,0 +1,11 @@
+{
+  "name": "ballot-research",
+  "description": "Research and compare the candidates and measures on a voter's ballot from authoritative nonpartisan sources, then produce a clean ballot-ordered voter guide. Triggers when the user shares a ballot, asks who is running for an office, asks about candidates, propositions, measures, or judges, wants a side-by-side comparison, or wants races mapped to their own stated priorities.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Woland2k"
+  },
+  "homepage": "https://github.com/Woland2k/ballot-research",
+  "repository": "https://github.com/Woland2k/ballot-research",
+  "license": "MIT"
+}

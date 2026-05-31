@@ -1,0 +1,15 @@
+{
+  "name": "ballot-research",
+  "owner": {
+    "name": "Woland2k"
+  },
+  "plugins": [
+    {
+      "name": "ballot-research",
+      "source": "./plugins/ballot-research",
+      "description": "Research and compare the candidates and measures on a voter's ballot from authoritative nonpartisan sources, then produce a clean ballot-ordered voter guide.",
+      "version": "1.0.0",
+      "license": "MIT"
+    }
+  ]
+}
