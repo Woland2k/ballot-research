@@ -64,3 +64,7 @@ curl -s -o /dev/null -w "%{http_code} -> %{redirect_url}\n" \
 ```
 
 That's it. The README download link and the Claude Code marketplace command both pick up the new version automatically — no further edits needed.
+
+## Don't forget the ChatGPT port
+
+`SKILL.md` is the canonical source. The ChatGPT instructions in `chatgpt/ballot-research-instructions.md` are a hand-maintained copy of the same workflow + guardrails with the reference files inlined. If you changed the skill's workflow, principles, sources, or templates, mirror the change into that file so the ChatGPT experience stays in sync.
